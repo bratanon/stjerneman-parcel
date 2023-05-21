@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# intellij
+.idea/
+*.iml
+
+# builds
+dist

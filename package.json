@@ -1,0 +1,32 @@
+{
+  "name": "stjerneman-parcel",
+  "version": "1.0.0",
+  "description": "Stjerneman.com parcel version",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "WTFPL",
+  "author": "Emil Stjerneman",
+  "source": [
+    "src/index.html",
+    "src/404.html"
+  ],
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1",
+    "postcss-url": "^10.1.3"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  }
+}
